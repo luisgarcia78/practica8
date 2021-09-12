@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #b6d513;
+}
+
+.areaprincipal{
+  background-image: url("../img/fondo.jpg"); /* agregar fondo de imagen al div  */
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  opacity: 0.8; /* opacidad de la imagen  */
+  -webkit-background-size:100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: %100 %100;
+
+}
+#encabezado {
+  background: #99e0e0;
+  height: 240px;
+  text-align: center;
+  background-image: url("../img/icono.png");
+  background-repeat: no-repeat;
+  background-size: 180px 180px;
+}
+.piepagina{
+  width: 100%;
+  height: 45px;
+  background: #212122;
+  color: white;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  text-align: center;
+
+}
+#menu{
+  height: 40px;
+  position: relative;
+  top: 200px;
+
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+li{
+  float: left;
+
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration:none;
+
+}
+li a:hover{
+  background-color: #111111;
+}
+#datos{
+  width: 50%;
+  background-color: red;
+  height: auto;
+  margin: auto;
+  opacity: 1;
+  color: #504e50;
+
+  font-family:  'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+}
+
+#datos2{
+  width: 50%;
+  background-color: white;
+  height: auto;
+  margin: auto;
+  opacity: 1;
+  color: #504e50;
+
+  font-family:  'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+}
+.img{
+display:block;
+margin:auto;
+}
+.conteimg{
+
+  background: #20e65c;
+}
+.conteimg2{
+
+  background: #aacc29;
+}
+.conteimg3{
+
+  background: #979e99;
+}
+.conteimg4{
+
+  background: #c9372b;
+}
+.conteimg5{
+  background: #bad5c2;
+}
+h1{
+  text-align: center;
+  background:#20e65c;
+}
+.p1{
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+}
+.catalogizq{
+width: 500px;
+height:auto;
+background: red;
+}
+
+.catalogodere{
+  width: 50%;
+  height: auto;
+  background: blue;
+  float: right;
+
+
+}
+.catalogoproducto{
+  height: 250px;
+  width: 300px;
+
+}
+.caracteristicas{
+
+  height: auto;
+  width: 10px
+  display:inline;
+  float: right;
+  color: white;
+  text-align: left;
+}
+.contac{
+  font-size: 30px;
+}
